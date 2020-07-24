@@ -29,7 +29,7 @@ for i in imgs.keys():
 
 print(f'반갑습니다 {student} 님')
 img = cv2.imread(imgs[student],0)
-plt.imshow(img)
+# plt.imshow(img)
 
 
 # img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,None,flags=2)
